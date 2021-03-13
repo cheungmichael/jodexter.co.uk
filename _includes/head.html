@@ -1,0 +1,13 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | escape }}{% else %}Welcome to the website of Joanne Dexter, Soprano{% endif %}">
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}Welcome to the website of Joanne Dexter, Soprano{% endif %}</title> 
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+  {% if page.include-js %}
+  <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery-ui-1.10.0.custom.min.js"></script>
+  <script type="text/javascript" src="/assets/js/scripts.js"></script>
+  {% endif %}
+</head>

@@ -1,0 +1,176 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,textarea,p,blockquote,th,td {background:transparent; margin:0; padding:0;}
+fieldset,img,abbr,acronym {border:0;}
+ol,ul {list-style:none;}
+:focus {outline: 0;}
+table {border-collapse:collapse; border-spacing:0; font-size:inherit; font-size:100%}
+caption,th {text-align:left;}
+address,caption,cite,code,dfn,em,th,var {font-style:normal; font-weight:normal;}
+h1,h2,h3,h4,h5,h6 {font-size:100%; font-weight:normal;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after {content:'';}
+html {font-size:62.5%;}
+body {font:100% calibri, arial, helvetica, sans-serif;}
+p,ul,ol,td,dt,dd {color:#000; font-size:1.5em; line-height:1.6em; margin-bottom:1em;}
+.clear:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+a {color:#b00;}
+a:hover {text-decoration:none;}
+strong {font-weight:bold;}
+quote, em {font-style:italic;}
+abbr {border-bottom:1px dotted #e2017b;}
+input, textarea {font-family:calibri,arial,helvetica,sans-serif; font-size:inherit;}
+h1 {position:absolute; clip:rect(1px, 1px, 1px, 1px);}
+h2 {font-size:1.8em; margin:1em 0 .5em 0;}
+p.logo {margin:0 0 .5em 0;}
+p.logo a:focus {border-bottom:2px solid #b00;}
+.fl {float:left;}
+.fr {float:right;}
+img.fl {margin:0 2em 0 0;}
+img.fr {margin:0 0 0 2em;}
+dt {clear:left; font-weight:bold; margin-right:.5em;}
+dt, dd {float:left; margin-bottom:0;}
+dl ul {margin:0;}
+dl li {font-size:.7em; line-height:1.6em;}
+
+body {background:url(../img/bg-home.jpg) left top no-repeat;}
+body.biography {background:url(../img/bg-biography.jpg) left top no-repeat;}
+body.audio {background:url(../img/bg-audio.jpg) left top no-repeat;}
+body.contact {background:#efefef;}
+body.repertoire {background:url(../img/bg-repertoire.jpg) left top no-repeat;}
+body.wedding {background:url(../img/bg-wedding.jpg) left top no-repeat;}
+body.audio {background:url(../img/bg-audio.jpg) left top no-repeat;}
+body.reviews {background:url(../img/bg-reviews.jpg) left -90px no-repeat;}
+body.buy {background:url(../img/bg-buy.jpg) left -80px no-repeat;}
+
+.skiptocontent-link {font-size:1.5em; left:0; padding:10px; position:absolute; top:-40px;}
+.skiptocontent-link:focus {background:#b00; color:#fff; top: 0; transition: top 0.1s ease-in 0s, background 0.5s linear 0s;}
+
+.nav {background:#fff; list-style:none; margin-bottom:1.5em; padding:.5em 0;}
+.nav li {display:inline; font-family:arial, helvetica,sans-serif; font-size:1em; font-variant:small-caps; font-weight:bold; margin-right:1em;}
+.nav li.selected, .nav li.selected a {border-bottom:1px solid #030; color:#030;}
+.nav li a {color:#b00; text-decoration:none;}
+.nav li a:hover, .nav li a:active, .nav li a:focus, .home li.homelink, .biography li.biographylink, .audio li.audiolink, .repertoire .repertoirelink, .wedding .weddinglink, .reviews .reviewslink, .contact .contactlink, .buy .buylink, .nav li:hover {color:#030; border-bottom:1px solid #030;}
+.nav li a:focus {border-top:1px solid #030;}
+.nav li.selected a:hover, .nav li.selected a:active, .nav li.selected a:focus {text-decoration:none;}
+.home li.homelink a, .biography li.biographylink a, .audio li.audiolink a, .repertoire .repertoirelink a, .wedding .weddinglink a, .reviews .reviewslink a, .contact .contactlink a, .buy .buylink a {color:#333;}
+.nav li.last:after {content:'';}
+
+.wrap, .content {
+    background: -moz-linear-gradient(left,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0)));
+    background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    background: -o-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    background: -ms-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 );
+}
+.wrap {padding:1.5em; width:100em;}
+.content {border-radius:8px; padding:2em 0 1em 2em; width:62em;}
+iframe {margin:0 0 1em 0;}
+.lte-ie8 .content {width:63em;}
+
+/* modals */
+#modal h2 {border-bottom:1px solid #ccc; font-weight:bold; margin-bottom:.5em; margin-top:0; padding-bottom:.3em;}
+.ui-widget-overlay {background-color:#000; height:100%; left:0; opacity:0.7; position:fixed; top:0; width:100%; z-index:1;}
+.lte-ie8 .ui-widget-overlay {filter:alpha(opacity=70);}
+.ui-dialog {background:#fff; border-radius:10px; padding:25px; z-index:2;}
+.ui-dialog-titlebar {float:right;}
+.ui-dialog-titlebar button {background:none; border:0; cursor:pointer; font-size:1.2em; text-decoration:underline;}
+.ui-dialog-titlebar button:hover {text-decoration:none;}
+
+/* accordions */
+.accordion h3 {background:#ddd url(../img/icon-arrow-right.gif) 10px no-repeat; border:1px solid #ccc; cursor:pointer; display:block; font-size:1.6em; padding:.5em .5em .5em 1.5em;}
+.accordion h3.ui-state-hover {text-decoration:underline;}
+.accordion h3.ui-state-active {background:#ddd url(../img/icon-arrow-down.gif) 6px no-repeat;}
+.accordion div {border:1px solid #ccc; border-top:0; overflow:auto; padding:1.5em 1.5em 0 1.5em;}
+.accordion ul {float:left; margin-right:1em; width:22em;}
+.accordion ul {list-style-type:disc; margin-left:1em;}
+
+/* home */
+.intro {font-size:1.8em; margin-bottom:.8em;}
+
+/* audio */
+.audio-clips li {margin-bottom:1em;}
+.gte-ie9 .audio-clips li {margin-bottom:0;}
+.audio-clips audio {margin-top:.2em;}
+.lte-ie8 .audio li br {display:none;}
+.lte-ie8 .audio li br.f {display:block;}
+
+/* repertoire */
+.repertoire .mlr ul {list-style-type:disc; margin-left:1em;}
+.repertoire .mlr .fl {margin-right:1em; width:19em;}
+.repertoire .mlr .fl.last {margin-right:0;}
+.repertoire .mlr .nomb {margin-bottom:0;}
+.repertoire-list li {margin-bottom:1em;}
+
+/* reviews, wedding */
+.reviews p span, .wedding p span {color:#b00; font-style:italic;}
+.wedding iframe {margin-bottom:0;}
+
+/* buy */
+.buy img.fl {margin-bottom:1em;}
+.buy .wrap .content {padding-bottom:2em;}
+.buy form img {padding-top:.5em;}
+.buy h2 {clear:left; font-weight:bold; margin-top:0;}
+.buy ol {list-style-type:decimal; margin-left:1.5em;}
+.buy .edd-add-to-cart {cursor:pointer; font-size:1.5em; padding:.5em;}
+.buy a.edd_go_to_checkout {font-size:1.2em;}
+table#edd_checkout_cart td, table#edd_checkout_cart th, table#edd_purchase_receipt td, table#edd_purchase_receipt th, table#edd_purchase_receipt_products td, table#edd_purchase_receipt_products th {padding:10px 20px 0 0;}
+table#edd_checkout_cart th, table#edd_purchase_receipt th, table#edd_purchase_receipt_products th {font-size:1.5em;}
+tr.edd_cart_footer_row {display:none;}
+.edd-payment-icons img {margin-right:10px; margin-top:10px;}
+#edd_checkout_user_info legend {display:none;}
+fieldset#edd_checkout_user_info {margin-top:2em;}
+p.edd_error {color:#b00; margin-top:1em;}
+.buy h3 {display:none;}
+table#edd_purchase_receipt, table#edd_purchase_receipt_products {border-top:1px solid #999; margin-top:2em;}
+table#edd_purchase_receipt_products th {font-weight:bold;}
+table#edd_purchase_receipt_products td {vertical-align:top;}
+li.edd_download_file {font-size:.7em; line-height:1.5em;}
+table#edd_purchase_receipt_products tfoot {display:none;}
+td.edd_cart_actions, th.edd_cart_actions {display:none;}
+
+/* contact */
+body.contact .content .fr {background:#fff; box-shadow:0 0 8px rgba(14, 14, 14, 0.3); margin-left:2em; padding:5px 5px 2px 5px; position:relative; width:300px;}
+body.contact .content .fr p {font-size:1em; line-height:normal; margin:0;}
+body.contact .content .fr:before, body.contact .content .fr:after {bottom: 15px; box-shadow:0 18px 15px rgba(0, 0, 0, 0.3); content:""; height:20%; left:20px; position:absolute; transform:rotate(-3deg); width:50%; z-index:-1;}
+body.contact .content .fr:after {left:auto; right:20px; transform: rotate(3deg);}
+body.contact input {width:18em;}
+body.contact textarea {width:18em;}
+body.contact .wpcf7-submit {width:auto;}
+.links {clear:left; padding-top:1em;}
+.links h2 {border-bottom:1px solid #eee; font-weight:bold; margin-top:0;}
+.links li {margin-bottom:1em;}
+.wpcf7-mail-sent-ok {border:1px solid #b00; color:#b00; font-size:1.4em; margin-bottom:1em; padding:1em;}
+.wpcf7-form textarea {height:7em;}
+
+/* videos */
+body.videos .accordion div {border-color:#b00; margin:0; padding:0; text-align:center;}
+body.videos .accordion h2 {background:#b00 url(../img/icon-arrow-right-white.gif) 10px no-repeat; color:#fff; cursor:pointer; display:block; margin:1px 0 0 0; padding:.5em .5em .5em 1.5em;}
+body.videos .accordion h2.ui-state-hover {text-decoration:underline;}
+body.videos .accordion h2.ui-state-active {background:#b00 url(../img/icon-arrow-down-white.gif) 6px no-repeat;}
+body.videos .content {padding-bottom:20em;}
+body.videos iframe {margin:1em 0;}
+
+@media handheld and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 600px)  {
+    body {background-position:-160px top !important;}
+    body.biography {background-position:-260px top !important;}
+    body.audio {background-position:-20px top !important;}
+    body.repertoire {background-position:-210px top !important;}
+    body.reviews {background-position:-240px top !important;}
+    body.buy {background-position:-240px top !important;}
+    .wrap {width:68em;}
+    .content {width:68em;}
+    .nav li {line-height:1.3em; margin-right:.5em;}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body {background-position:-200px top !important;}
+    body.biography {background-position:-300px top !important;}
+    body.audio {background-position:-50px top !important;}
+    body.repertoire {background-position:-220px top !important;}
+    body.wedding {background-position:-240px top !important;}
+    body.reviews {background-position:-280px top !important;}
+    body.buy {background-position:-290px top !important;}
+    .wrap {width:65em;}
+    .nav li {font-size:1.2em; margin-right:.7em;}
+}
