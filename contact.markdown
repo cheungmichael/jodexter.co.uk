@@ -3,6 +3,7 @@ layout: default
 page: contact
 title: Contact Joanne Dexter - Soprano
 excerpt: Joanne Dexter - Soparano - Contact
+permalink: /contact/
 ---
 <h1>Contact</h1>
 <div class="fr"><img alt="Joanne Dexter" src="/assets/img/contact.jpg"></div>

@@ -3,6 +3,7 @@ layout: default
 page: audio
 title: Audio clips of Joanne Dexter - Soprano
 excerpt: Joanne Dexter - Soparano - Audio clips
+permalink: /audio/
 ---
 <h1>Audio</h1>
 <p>To sample some of Joanne&#8217;s repertoire, click on the audio clips below.</p>

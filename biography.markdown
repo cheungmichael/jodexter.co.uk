@@ -4,6 +4,7 @@ page: biography
 title: Biography of Joanne Dexter - Soprano
 excerpt: Joanne Dexter - Soparano - Biography information 
 include-js: true
+permalink: /biography/
 ---
 <h1>Biography</h1>
 <p>“Subtle”&#8230;“elegant”&#8230;“engaging.”<br>

@@ -3,6 +3,7 @@ layout: default
 page: reviews
 title: Reviews of Joanne Dexter - Soprano
 excerpt: Joanne Dexter - Soparano - Reviews
+permalink: /reviews/
 ---
 <h1>Reviews</h1>
 <p>&ldquo;The most subtle and eloquent performance of the evening came from Joanne Dexter in the role of Drusilla.&rdquo;<br><span>Opera Magazine</span></p>

@@ -3,6 +3,7 @@ layout: default
 page: repertoire
 title: Repertoire information for Joanne Dexter - Soprano
 excerpt: Joanne Dexter - Soparano - Repertoire information
+permalink: /repertoire/
 ---
 <h1>Repertoire</h1>
 <p>Joanne&#8217;s opera repertoire is extensive. Here are just some of the operas she has appeared in:</p>
