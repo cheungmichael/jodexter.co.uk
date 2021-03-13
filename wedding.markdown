@@ -12,7 +12,7 @@ permalink: /wedding/
 <p>A performance by soprano Joanne Dexter will enthral your guests as you walk down the aisle, complete the important job of signing the register, or at the end of the ceremony.<br>
 Her repertoire extends from modern pop classics to the world’s greatest operatic arias and some of the most beautiful sacred music ever composed.</p>
 <p>But don&#8217;t take our word for it. Listen to Joanne now and make up your own mind&#8230;</p>
-<p><iframe width="560" height="315" src="http://www.youtube-nocookie.com/embed/k0c6KyGxQ5s?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe title="Joanna Dexter talks about her wedding collection on YouTube" width="560" height="315" src="http://www.youtube-nocookie.com/embed/k0c6KyGxQ5s?rel=0" frameborder="0" allowfullscreen></iframe></p>
 <p><a href="#modal" class="modal-open">View Joanne&#8217;s wedding repertoire.</a></p>
 <div id="modal">
     <h2>Wedding repertoire</h2>
