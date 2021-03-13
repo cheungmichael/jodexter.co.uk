@@ -22,7 +22,7 @@ Her repertoire extends from modern pop classics to the world’s greatest operat
             <ul>
                 <li>All I Ask of You (Phantom of the Opera, Andrew Lloyd Webber)</li>
                 <li>Come What May (Moulin Rouge, David Baerwald)</li>
-                <li><a href="../audio/#fields">Fields of Gold</a> (Sting)</li>
+                <li><a href="../audio#fields">Fields of Gold</a> (Sting)</li>
                 <li>One Hand, One Heart (West Side Story, Leonard Bernstein)</li>
                 <li>Somewhere (West Side Story, Leonard Bernstein)</li>
                 <li>You raise me up (Westlife, Rolf Lovland)</li>
@@ -38,7 +38,7 @@ Her repertoire extends from modern pop classics to the world’s greatest operat
         <h3>Classical and sacred</h3>
         <div>
             <ul>
-                <li><a href="../audio/#avemaria">Ave Maria</a> (Bach/Gounod/Schubert/Caccini)</li>
+                <li><a href="../audio#avemaria">Ave Maria</a> (Bach/Gounod/Schubert/Caccini)</li>
                 <li>Gabriel’s Oboe (The Mission, Morricone)</li>
                 <li>Laudate Dominum (Mozart)</li>
                 <li>Let the bright Seraphim (Handel)</li>
@@ -46,7 +46,7 @@ Her repertoire extends from modern pop classics to the world’s greatest operat
                 <li>Pie Jesu (Lloyd Webber)</li>
             </ul>
             <ul>
-                <li><a href="../audio/#exsultate">Exsultate Jubilate</a> (Mozart)</li>
+                <li><a href="../audio#exsultate">Exsultate Jubilate</a> (Mozart)</li>
                 <li>Laschia ch’io pianga (Handel)</li>
                 <li>Laudamus Te (Mozart)</li>
                 <li>Jesu Joy of Man&#8217;s Desiring (Bach)</li>
